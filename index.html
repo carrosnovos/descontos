@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carro Novo - Descontos!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/styling_desc.css">
+        
+        <!--   CÓDIGO    -->
+        <script>
+            window.onload = () => {
+                let pageLinks = document.querySelectorAll('a');
+                        pageLinks.forEach(elem => {
+                    let href = elem.href;
+                            if (href === undefined || href.indexOf("#") >= 0 || href.indexOf("api.whatsapp") >= 0) return true;
+                            let search_params = document.location.search.replace('?', '');
+                            elem.href = href + (href.indexOf("?") > 0 ? '&' : '?') + search_params.toString();
+                        });
+                    }
+        </script>
+        <!--  END CÓDIGO    -->
+        
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="content">
+<!--                TITTLE -->
+                <div id="tittle">
+                    <strong>DESCONTO CARROS NOVOS! </strong>
+                </div>
+                <div id="subTittle">                    
+                    <div id="st2">OFERTA POR TEMPO LIMITADO</div>
+                </div>
+                
+ <!--                DESCONTOS --> 
+                <div class="descontos">
+                    <div class="descontoWrapper">
+                        <div class="desconto">
+                            <div class="perc1">64% OFF</div>
+                            <div class="titperc">
+                                <strong>COMPRE 1 LEVE 4</strong>
+                                <br>
+                                <span style="font-size: 15px;">Cada item por R$49,25 a vista</span>
+                            </div>
+                            
+                            <div class="imgDesc">
+                                <img src="https://djivangross.com/md/images/carrosnovos/desc1.png">                          
+                            </div>
+                            
+                            <div class="descDesc">
+                                <div id="descDesc1"><strong>Entrega Instantânea</strong></div>         
+                                
+                                <div id="descDesc2">
+                                    <span style="font-size: 15px; font-weight: 600;">Contém: 1 Carro dos Sonhos + 3 Bônus!</span>
+                                    <hr>
+                                </div>                                
+                            </div>
+                            
+                            <div class="precoTit">Preço de tabela:</div>
+                            <div class="precoVal">
+                                <span style="text-decoration: line-through; font-weight: bold; color: #E73671">R$ 547,00</span>
+                            </div>
+                            
+                            <div class="precoTit">Preço com desconto:</div>
+                            <div class="precoVal">
+                                <strong>R$ 197,00</strong>
+                            </div>
+                            
+                            <div class="precoParc">
+                                <strong>ou 12x <span style="color:yellowgreen">R$</span> <span style="color:yellowgreen; font-size: 46px;">19,78</span></strong>
+                            </div>
+                            
+                            <!--                BUTTON-->
+                            <div class="button1">
+                                <div id="button1"><a href="https://go.perfectpay.com.br/PPU38CK5R3U">COMPRE AGORA</a></div>                    
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="descontoWrapper">
+                        <div class="desconto">
+                            <div class="perc2">58% OFF</div>
+                            <div class="titperc">
+                                <strong>COMPRE 1 LEVE 3</strong>
+                                <br>
+                                <span style="font-size: 15px;">Cada item por R$55,67 a vista</span>
+                            </div>
+                            
+                            <div class="imgDesc">
+                                <img src="https://djivangross.com/md/images/carrosnovos/desc2.png">                          
+                            </div>
+                            
+                            <div class="descDesc">
+                                <div id="descDesc1"><strong>Entrega Instantânea</strong></div>         
+                                
+                                <div id="descDesc2">
+                                    <span style="font-size: 15px; font-weight: 600;">Contém: 1 Carro dos Sonhos + 2 Bônus!</span>
+                                    <hr>
+                                </div>                                
+                            </div>
+                            
+                            <div class="precoTit">Preço de tabela:</div>
+                            <div class="precoVal">
+                                <span style="text-decoration: line-through; font-weight: bold; color: #E73671">R$ 397,00</span>
+                            </div>
+                            
+                            <div class="precoTit">Preço com desconto:</div>
+                            <div class="precoVal">
+                                <strong>R$ 167,00</strong>
+                            </div>
+                            
+                            <div class="precoParc">
+                                <strong>ou 12x <span style="color:#6E45C0">R$</span> <span style="color:#6E45C0; font-size: 46px;">16,77</span></strong>
+                            </div>
+                            
+                            <!--                BUTTON-->
+                            <div class="button1">
+                                <div id="button2"><a href="https://go.perfectpay.com.br/PPU38CK5R3T">COMPRE AGORA</a></div>                    
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="descontoWrapper">
+                        <div class="desconto">
+                            <div class="perc2">49% OFF</div>
+                            <div class="titperc">
+                                <strong>COMPRE 1</strong>
+                                <br>
+                                <span style="font-size: 15px;">Cada item por R$147,00 a vista</span>
+                            </div>
+                            
+                            <div class="imgDesc">
+                                <img src="https://djivangross.com/md/images/carrosnovos/desc3.png">                          
+                            </div>
+                            
+                            <div class="descDesc">
+                                <div id="descDesc1"><strong>Entrega Instantânea</strong></div>         
+                                
+                                <div id="descDesc2">
+                                    <span style="font-size: 15px; font-weight: 600;">Contém: 1 Carro dos Sonhos!</span>
+                                    <hr>
+                                </div>                                
+                            </div>
+                            
+                            <div class="precoTit">Preço de tabela:</div>
+                            <div class="precoVal">
+                                <span style="text-decoration: line-through; font-weight: bold; color: #E73671">R$ 297,00</span>
+                            </div>
+                            
+                            <div class="precoTit">Preço com desconto:</div>
+                            <div class="precoVal">
+                                <strong>R$ 147,00</strong>
+                            </div>
+                            
+                            <div class="precoParc">
+                                <strong>ou 12x <span style="color:#6E45C0">R$</span> <span style="color:#6E45C0; font-size: 46px;">14,76</span></strong>
+                            </div>
+                            
+                            <!--                BUTTON-->
+                            <div class="button1">
+                                <div id="button2"><a href="https://go.perfectpay.com.br/PPU38CK5R3S">COMPRE AGORA</a></div>                    
+                            </div>
+                        </div>
+                    </div> 
+                                   
+                </div>  
+                
+                
+                <div class="siteSeguro">
+                    <div id="cc">
+                        <div id="ssImg">
+                            <img src="https://djivangross.com/md/images/carrosnovos/icon_faixa_02.png">
+                        </div>
+                        <div id="ssTxt">
+                            PAGUE COM CARTÃO DE CRÉDITO <br> <strong>EM ATÉ 12X</strong>
+                        </div>
+                    </div> 
+                    <div id="blindado">
+                        <div id="ssImg">
+                            <img src="https://djivangross.com/md/images/carrosnovos/icon_faixa_03.png">
+                        </div>
+                        <div id="ssTxt">
+                            SITE BLINDADO <br> <strong>EM ATÉ 12X</strong>
+                        </div>
+                    </div> 
+                </div>
+                
+            </div> 
+
+            
+            
+<!--            FOOTER -->
+            <div class="footer">
+                
+                <div class="extrasnew">
+                    <div id="colunas">
+                        <div id="tittlesnew">GARANTIA CARRO DOS SONHOS</div>
+                        <div id="picsnew">Para saber mais detalhes sobre a Garantia consulte os “Termos e Condições” no rodapé de nosso site. 
+                            <br><br>
+                            Copyright 2020 © Carro dos Sonhos. Todos os Direitos Reservados
+                            <br><br><br>
+                            <a href="https://noticia-tv.com/entrevista-dermacaps/privacidade.php" target="_blank">POLÍTICA DE PRIVACIDADE</a>
+                            <br><br><br>
+                            <a href="https://noticia-tv.com/entrevista-dermacaps/privacidade.php" target="_blank">TERMOS E CONDIÇÕES</a>
+                        </div>
+                    </div>
+                    
+                    <div id="colunas">
+                        <div id="tittlesnew">FORMAS DE PAGAMENTO</div>
+                        <div id="picsnew"><img src="https://djivangross.com/md/images/carrosnovos/pagamento_header.png"></div>
+                    </div>
+                </div>
+                
+            </div>          
+            
+        </div>  
+    </body>
+</html>
